@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  const apiRoot = 'https://infinite-falls-96094.herokuapp.com/v1/task/';
+  const apiRoot = 'https://infinite-falls-96094.herokuapp.com/v1/trello/';
   const trelloApiRoot = 'http://localhost:8080/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
